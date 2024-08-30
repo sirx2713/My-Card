@@ -10,10 +10,9 @@ void main() {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
-              Icons.account_circle,
-              color: Colors.white,
-              size: 200,
+            CircleAvatar(
+              radius: 50.0,
+              backgroundImage: AssetImage("images/you.jpeg"),
             ),
             Text(
                 "Tafadzwa Alexander Razaro",
